@@ -21,8 +21,9 @@ Website template for business/companys without js framework made it with Tailwin
 
 ## Demo and comparison(Image)
 
-![My Work](https://cantutar.github.io/CompanyTemplate/)
-![Original website](https://geometryventure.dev/en/)
+[My Work](https://cantutar.github.io/CompanyTemplate/)
+<br/>
+[Original website](https://geometryventure.dev/en/)
 
 
 ## Author
