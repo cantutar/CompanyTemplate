@@ -6,8 +6,8 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Company Landing Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="./src/style.css">
-
 </head>
 
 <body id="app" style="user-select: none;">
@@ -401,31 +401,31 @@
   <!-- Start of the Logo Clouds -->
 
   <!-- <div class="bg-purple-500 py-28 left-0 right-0"> -->
-  <div class="bg-gradient-to-b from-purple-500 to-blue-500 py-28 left-0 right-0 mb-64">
+  <div class="bg-gradient-to-b from-purple-500 to-blue-500 py-28 left-0 right-0">
     <div class="container mx-auto">
       <h3 class="text-white text-center text-2l md:text-4xl lg:text-6xl">The world's most innovatieve companies that we
         work with...</h3>
 
       <div class="px-4 md:px-0 flex flex-wrap md:flex-nowrap md:flex-row justify-evenly mt-12">
         <div
-          class="flex-auto bg-white h-32 w-32 lg:w-64 lg:h-64 md:mx-auto rounded-b-none rounded-l-lg md:rounded-l-md flex items-center justify-center border-r-2 border-b-2 md:border-0">
+          class="flex-auto bg-white h-32 w-32 lg:w-64 lg:h-64 md:mx-auto rounded-b-none rounded-tl-lg md:rounded-l-md flex items-center justify-center border-r-2 border-b-2 md:border-0">
           <img draggable="false" class="w-auto p-4 md:p-0" src="./public/assets/icons/company logos/anchor.svg"
             alt="company1" srcset="" loading="lazy">
         </div>
         <div
-          class="flex-auto bg-white h-32 w-32 lg:w-64 lg:h-64 md:ml-5 rounded-r-lg rounded-b-none md:rounded-none flex items-center justify-center border-b-2 md:border-0">
-          <img draggable="false" class="w-auto" src="./public/assets/icons/company logos/barakatech.jpg" alt="company2"
-            srcset="" loading="lazy">
+          class="flex-auto bg-white h-32 w-32 lg:w-64 lg:h-64 md:ml-5 rounded-tr-lg rounded-b-none md:rounded-none flex items-center justify-center border-b-2 md:border-0">
+          <img draggable="false" class="w-auto p-6 md:p-0" src="./public/assets/icons/company logos/barakatech.jpg"
+            alt="company2" srcset="" loading="lazy">
         </div>
         <div
           class="flex-auto h-32 w-32 lg:w-64 lg:h-64 bg-white md:ml-5 rounded-none flex items-center justify-center border-r-2 border-b-2 md:border-0">
-          <img draggable="false" class="w-auto" src="./public/assets/icons/company logos/barty.jpg" alt="company3"
-            srcset="" loading="lazy">
+          <img draggable="false" class="w-auto p-6 md:p-0" src="./public/assets/icons/company logos/barty.jpg"
+            alt="company3" srcset="" loading="lazy">
         </div>
         <div
           class="flex-auto bg-white h-32 w-32 lg:w-64 lg:h-64 md:ml-5 rounded-none flex items-center justify-center border-b-2 md:border-0">
-          <img draggable="false" class="w-auto p-4" src="./public/assets/icons/company logos/glaucot.svg" alt="company4"
-            srcset="" loading="lazy">
+          <img draggable="false" class="w-auto p-6 md:p-4" src="./public/assets/icons/company logos/glaucot.svg"
+            alt="company4" srcset="" loading="lazy">
         </div>
         <div
           class="flex-auto bg-white h-32 w-32 lg:w-64 lg:h-64 md:mx-5 rounded-t-none rounded-b-lg rounded-r-none md:rounded-none flex items-center justify-center border-r-2 md:border-0">
@@ -454,13 +454,172 @@
   <!-- End of the Logo Clouds -->
 
   <!-- Start of the FAQ section -->
+  <section id="FAQ"
+    class="mx-auto w-full max-w-[85rem] container px-4 sm:px6 lg:px-8 mt-20 sm:mt-24 sm:scroll-m-24 xl:mt-32 xl:scroll-m-32">
+    <div class="mx-auto grid max-w-[40rem] grid-cols-1 gap-y-16 gap-x-14 lg:max-w-none lg:grid-cols-12">
+      <div class="lg:col-span-4">
+        <h2 class="text-base font-semibold leading-7 text-purple-600">Frequently asked questions</h2>
+        <p class="mt-4 text-4xl font-extrabold tracking-tight text-slate-900 xl:text-5xl xl:leading-[3.5rem]">Everything
+          you need to know</p>
+        <!-- <a class="mt-4" href="http://" target="_blank" rel="noopener noreferrer">More answers on Faq section.</a> -->
+        <img src="./public/assets/images/faq.svg" alt="faq icon"
+          class="hidden md:block max-h-60 mx-auto lg:max-h-full w-auto">
+      </div>
+      <div class="-mb-4 space-y-12 lg:col-span-8 xl:col-span-7 xl:col-start-6">
+        <section>
+          <h3 class="text-lg font-semibold leading-7 text-gray-500">General</h3>
+          <dl class="mt-2 divide-y divide-slate-400">
+            <details class="group py-4 marker:content-['']">
+              <summary
+                class="flex w-full cursor-pointer select-none justify-between text-left text-base font-semibold leading-7 text-slate-900 group-open:text-purple-600 [&::-webkit-details-marker]:hidden">
+                First question?
+                <span class="flex items-center text-slate-500 group-open:text-purple-600">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="pt-6 pb-6">
+                <div class="color-[#4b5563] max-w-none font-semibold hover:text-purple-500 ">
+                  <p>First Answer</p>
+                </div>
+              </div>
+            </details>
+            <details class="group py-4 marker:content-['']">
+              <summary
+                class="flex w-full cursor-pointer select-none justify-between text-left text-base font-semibold leading-7 text-slate-900 group-open:text-purple-600 [&::-webkit-details-marker]:hidden">
+                Second question?
+                <span class="flex items-center text-slate-500 group-open:text-purple-600">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="pt-6 pb-6">
+                <div class="color-[#4b5563] max-w-none font-semibold hover:text-purple-500 ">
+                  <p>Second Answer</p>
+                </div>
+              </div>
+            </details>
+          </dl>
+        </section>
+        <section>
+          <h3 class="text-lg font-semibold leading-7 text-gray-500">Second Topic</h3>
+          <dl class="mt-2 divide-y divide-slate-400">
+            <details class="group py-4 marker:content-['']">
+              <summary
+                class="flex w-full cursor-pointer select-none justify-between text-left text-base font-semibold leading-7 text-slate-900 group-open:text-purple-600 [&::-webkit-details-marker]:hidden">
+                Third question?
+                <span class="flex items-center text-slate-500 group-open:text-purple-600">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="pt-6 pb-6">
+                <div class="color-[#4b5563] max-w-none font-semibold hover:text-purple-500 ">
+                  <p>Third Answer</p>
+                </div>
+              </div>
+            </details>
+            <details class="group py-4 marker:content-['']">
+              <summary
+                class="flex w-full cursor-pointer select-none justify-between text-left text-base font-semibold leading-7 text-slate-900 group-open:text-purple-600 [&::-webkit-details-marker]:hidden">
+                Fourth question?
+                <span class="flex items-center text-slate-500 group-open:text-purple-600">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="pt-6 pb-6">
+                <div class="color-[#4b5563] max-w-none font-semibold hover:text-purple-500 ">
+                  <p>Fourth Answer</p>
+                </div>
+              </div>
+            </details>
+          </dl>
+        </section>
+        <section>
+          <h3 class="text-lg font-semibold leading-7 text-gray-500">Third Topic</h3>
+          <dl class="mt-2 divide-y divide-slate-400">
+            <details class="group py-4 marker:content-['']">
+              <summary
+                class="flex w-full cursor-pointer select-none justify-between text-left text-base font-semibold leading-7 text-slate-900 group-open:text-purple-600 [&::-webkit-details-marker]:hidden">
+                Fifth question?
+                <span class="flex items-center text-slate-500 group-open:text-purple-600">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="pt-6 pb-6">
+                <div class="color-[#4b5563] max-w-none font-semibold hover:text-purple-500 ">
+                  <p>Fifth Answer</p>
+                </div>
+              </div>
+            </details>
+            <details class="group py-4 marker:content-['']">
+              <summary
+                class="flex w-full cursor-pointer select-none justify-between text-left text-base font-semibold leading-7 text-slate-900 group-open:text-purple-600 [&::-webkit-details-marker]:hidden">
+                Sixth question?
+                <span class="flex items-center text-slate-500 group-open:text-purple-600">
+                  <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </summary>
+              <div class="pt-6 pb-6">
+                <div class="color-[#4b5563] max-w-none font-semibold hover:text-purple-500 ">
+                  <p>Sixth Answer</p>
+                </div>
+              </div>
+            </details>
+          </dl>
+        </section>
+      </div>
+    </div>
+  </section>
+
   <!-- End of the FAQ section -->
 
   <!-- Start of the who are we section -->
   <!-- End of the who are we section -->
 
   <!-- Start of the newsletter -->
-  <!-- End of the FAQ -->
+  <section id="newsletter" class="bg-purple-800 mx-auto text-white py-20 lg:py-14 mt-20">
+    <div class="flex flex-col lg:flex-row justify-around items-center px-6">
+      <div class="basis-12 lg:basis-5/12">
+        <h3 class="lg:leading-7 font-bold text-5xl ">Want update for our news and updates?</h3>
+        <span class="block pt-8 text-xl max-w-4xl">Sign up for our newsletter to stay up to date we promise you you
+          will
+          only
+          receive one
+          email
+          per
+          month.</span>
+      </div>
+      <div class="mt-5 lg:mt-0 basis-12 lg:basis-5/12">
+        <div class="flex">
+          <div class="relative mt-1 rounded-md shadow-sm flex justify-between">
+            <input type="email" name="email" id="email"
+              class="block w-full rounded-md text-black border-gray-300 md:pl-7 md:pr-36  focus:border-purple-500 focus:ring-purple-500 sm:text-sm md:placeholder:text-lg"
+              placeholder="Enter your email">
+            <button class="bg-purple-500 rounded-md block p-2 md:px-12 ml-4">Notify Me</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- End of the newsletter -->
 
   <!-- Start of the Footer -->
   <!-- End of the FAQ -->
